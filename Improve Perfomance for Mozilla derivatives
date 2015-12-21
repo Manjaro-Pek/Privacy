@@ -1,0 +1,16 @@
+## This is very usefull improve performance for: Firefox, Iceweasel, Icecat, Semonkey and Palemon
+
+#---------------------------------
+#Pipelining
+#---------------------------------
+network.http.pipelining; true
+network.http.pipelining.abtest; false
+network.http.pipelining.aggressive; true
+network.http.pipelining.max-optimistic-requests; 3
+network.http.pipelining.maxrequests; 12
+network.http.pipelining.maxsize; 300000
+network.http.pipelining.read-timeout; 60000
+network.http.pipelining.reschedule-on-timeout; true
+network.http.pipelining.reschedule-timeout; 15000
+network.http.pipelining.ssl; true
+network.http.proxy.pipelining; false
