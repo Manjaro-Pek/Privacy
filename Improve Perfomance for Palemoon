@@ -18,7 +18,7 @@ network.http.proxy.pipelining; false
 #---------------------------------
 #nglayout
 #---------------------------------
-nglayout.initialpaint.delay; 150
+nglayout.initialpaint.delay; 100
 
 #---------------------------------
 #Connection
