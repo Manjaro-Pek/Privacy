@@ -14,3 +14,13 @@ network.http.pipelining.reschedule-on-timeout; true
 network.http.pipelining.reschedule-timeout; 15000
 network.http.pipelining.ssl; true
 network.http.proxy.pipelining; false
+
+#---------------------------------
+#nglayout
+#---------------------------------
+nglayout.initialpaint.delay; 150
+
+#---------------------------------
+#Connection
+#---------------------------------
+
