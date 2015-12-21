@@ -1,4 +1,4 @@
-## This is very usefull improve performance for: Firefox, Iceweasel, Icecat, Semonkey and Palemon
+## This is very usefull improve performance for Palemon
 
 #---------------------------------
 #Pipelining
@@ -23,4 +23,10 @@ nglayout.initialpaint.delay; 150
 #---------------------------------
 #Connection
 #---------------------------------
-
+network.http.connection-retry-timeout; 10
+network.http.connection-timeout; 10
+network.http.keep-alive.timeout; 10
+network.http.max-connections; 256
+network.http.max-connections-per-server; 6
+network.http.max-persistent-connections-per-proxy; 4
+network.http.max-persistent-connections-per-server; 4
